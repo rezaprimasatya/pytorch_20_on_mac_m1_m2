@@ -30,7 +30,7 @@ cd pytorch_20_m1_m2
 > **Note:** 
 > I used python 3.11.4
 
-![python version](pythonversion.png "python version")
+![python version](pyversion.png "python version")
 
 ```other
 conda create --prefix ./envpytorch20m1m2 python=3.11.4
@@ -88,4 +88,4 @@ apple_m2_pro_mps_cifar10_image_size.csv
 ```
 
 also graph
-![graph time to train mps and cpu](TinyVGG_cifar10_benchmark_with_batch_size_32_image_size_224.png "graph on M2")
+![graph time to train mps and cpu](results/TinyVGG_cifar10_benchmark_with_batch_size_32_image_size_224.png "graph on M2")
